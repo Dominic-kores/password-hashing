@@ -1,0 +1,17 @@
+
+{
+  "name": "week-7-day-1-assignment",
+  "version": "1.0.0",
+  "description": "Secure password hashing, registration and login API with bcryptjs",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "hash": "node hash-demo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "express": "^5.0.0"
+  }
+}
